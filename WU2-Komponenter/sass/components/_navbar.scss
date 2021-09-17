@@ -1,0 +1,32 @@
+.navbar {
+    justify-content: center;
+    border-bottom: 4px solid #e02e3d;
+    height: 4rem;
+  
+    &-content {
+      width: 80%;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  .nav-item {
+    height: 4rem;
+    font-weight: 600;
+    border-right: 1px solid #e1e1e1;
+
+    &:hover {
+        background-color: #e1e1e1;
+      }
+    &:first-child {
+        border-left: 1px solid #e1e1e1;
+      }
+    &:last-child {
+        margin-right: 0;
+      }
+    &a {
+        color: #404040;
+        text-decoration: none;
+        padding: 0 1rem;
+      }
+  }

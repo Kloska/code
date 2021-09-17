@@ -1,0 +1,27 @@
+@media (max-width: 1020px) {
+  article {
+    width: 100%;
+    float: none;
+  }
+
+  aside {
+    width: 100%;
+    float: none;
+    margin: 0;
+    min-height: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  main, header, .navbar-content {
+    width: 60%;
+  }
+}
+
+@import "utilities/container";
+
+@import "components/navbar";
+
+@import "components/navbar";
+
+@import "components/type";
