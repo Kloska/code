@@ -31,6 +31,16 @@ body {
     width: 30%;
     float:right;
     min-height: 100%;
+
+    &a {
+      color: #404040;
+      text-decoration: none;
+    
+      &:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+    }
   }
   
   ul {
@@ -39,25 +49,13 @@ body {
     margin: 0;
   }
   
-  a {
-    color: #404040;
-    text-decoration: none;
-  
-    &:hover {
-      color: #000;
-      text-decoration: underline;
-    }
-  }
-  
-  .text-uppercase {
-    text-transform: uppercase;
-  }
-  
+  .bg-lightgray { background-color: rgb(235,235,235); }  
   .bg-gray { background-color: #333; }
   .bg-red { background-color: #e02e3d; }
   .fg-gray { color: #404040; }
   .fg-black { color: #000; }
   .fg-white { color: #fff; }
+  .bg-white { background-color: #fff; }
 
   .more {
     font-weight: 600;
